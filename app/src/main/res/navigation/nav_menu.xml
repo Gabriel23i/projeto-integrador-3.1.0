@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/creationTask">
+    <fragment
+        android:id="@+id/creationTask"
+        android:name="com.example.aplicationtestinglayout.CrationTask_fragment"
+        tools:layout="@layout/fragment_cration_task_fragment" >
+        <action
+            android:id="@+id/CreationTaskToList"
+            app:destination="@id/taskList" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskList"
+        android:name="com.example.aplicationtestinglayout.TaskList_fragment"
+        tools:layout="@layout/fragment_task_list_fragment" >
+        <action
+            android:id="@+id/ListToCreation"
+            app:destination="@id/creationTask" />
+    </fragment>
+    <fragment
+        android:id="@+id/lataLixo"
+        android:name="com.example.aplicationtestinglayout.trashcan_fragment"
+        tools:layout="@layout/fragment_trashcan_fragment" />
+</navigation>

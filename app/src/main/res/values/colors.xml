@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Ciano">#4DBCBE </color>
+    <color name="Ciano_light">#66F7FA</color>
+    <color name="Ciano_dark">#32797A </color>
+    <color name="Purple_light">#a857ff </color>
+    <color name="Purple_medium">#7e41bf </color>
+    <color name="Purple_dark">#542b80 </color>
+    <color name="Purple_darkdouble">#2a1640 </color>
+    <color name="Green_light">#a857ff </color>
+    <color name="Green">#70E085 </color>
+    <color name="Green_dark">#3D7A48 </color>
+
+    <color name="AmareloDeTeste">#fffe38 </color>
+
+    <color name="CianoDeTesteClaro">#0DD3FF </color>
+    <color name="CianoDeTesteMedio">#0A9EBF </color>
+    <color name="CianoDeTesteEscuro">#0889A6  </color>
+
+    <color name="PurpleTestLight">#B69ED9 </color>
+    <color name="PurpleTestMedium">#a857ff </color>
+    <color name="PurpleTestdark">#7b00ff </color>
+    <color name="YellowTest1">#ffd600 </color>
+    <color name="YellowTest2">#f3ef6d </color>
+
+
+
+
+
+</resources>

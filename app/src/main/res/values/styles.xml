@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name = "ContainerComponents">
+
+        <item name = "android:layout_width"> match_parent  </item>
+        <item name = "android:layout_height"> 250dp </item>
+        <item name = "android:background"> @drawable/container_components </item>
+
+    </style>
+
+    <style name = "CenterButtonsForm">
+
+        <item name = "android:layout_width"> match_parent </item>
+        <item name = "android:layout_height"> 80dp </item>
+        <item name = "android:background"> @drawable/backgroundbuttondaily </item>
+
+    </style>
+
+    <style name="CamposDePreenchimento">
+
+        <item name = "android:background"> @drawable/campos_preenchidos </item>
+        <item name = "android:paddingTop"> 9dp </item>
+
+    </style>
+
+    <style name = "Subcentro">
+
+        <item name = "android:layout_width"> match_parent  </item>
+        <item name = "android:layout_height"> 50dp </item>
+        <item name = "android:background"> @drawable/borda_subcentro </item>
+
+    </style>
+
+    <style name="TextInput">
+
+        <item name = "android:layout_width"> match_parent  </item>
+        <item name = "android:layout_height"> 50dp </item>
+        <item name = "android:backgroundTint"> @color/white </item>
+        <item name = "android:textColorHint"> @color/white </item>
+        <item name = "android:textStyle"> bold </item>
+        <item name = "android:textAlignment"> center </item>
+
+    </style>
+
+    <style name="botãoSalvareCancelar">
+
+        <item name = "backgroundTint"> #4759ac </item>
+
+    </style>
+
+    <style name="inputTextLogin">
+
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:layout_height"> 60dp </item>
+        <item name = "android:background"> @drawable/input_text_login </item>
+
+    </style>
+
+    <style name="buttonLogin">
+
+        <item name="android:layout_height"> 50dp </item>
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:radius"> 30dp </item>
+        <item name="android:background"> @drawable/back_login_button </item>
+        <item name="android:textAlignment"> center </item>
+        <item name="android:padding"> 10dp  </item>
+
+    </style>
+
+    <style name="buttonCad">
+
+        <item name="android:layout_height"> 50dp </item>
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:radius"> 30dp </item>
+        <item name="android:background"> @drawable/back_cad_button </item>
+        <item name="android:textAlignment"> center </item>
+        <item name="android:padding"> 10dp  </item>
+
+    </style>
+
+</resources>

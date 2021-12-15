@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="criarTarefas"
+        android:icon="@drawable/ic_adicionar_tarefas"
+        android:id="@+id/creationTask"/>
+
+
+    <item
+        android:id="@+id/taskList"
+        android:checkable="false"
+        android:icon="@drawable/ic_ver_tarefas"
+        android:title="verTarefas" />
+
+
+    <item
+        android:title="Help"
+        android:icon="@drawable/ic_helpbutton"
+        android:id="@+id/lataLixo"/>
+
+
+</menu>
